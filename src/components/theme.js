@@ -1,6 +1,7 @@
 const theme = {
   color: {
     primary: {
+      lighten: '#E37D71',
       default: '#E35040'
     },
     grey: {
@@ -30,6 +31,12 @@ const theme = {
     small: '1.2em',
     normal: '1.5em'
   },
+  margin: {
+    bottom: {
+      small: '.5em',
+      medium: '1em'
+    }
+  },
   padding: {
     small: '2.5rem',
     medium: '5rem',
@@ -38,7 +45,7 @@ const theme = {
   },
   paragraph: {
     weight: 300,
-    fontSize: '1.8rem',
+    fontSize: '2rem',
     margin: {
       bottom: '1em'
     },
@@ -57,6 +64,12 @@ theme.heading = {
   tertiary: {
     size: '2.6rem',
     weight: 500
+  }
+}
+
+theme.icon = {
+  size: {
+    large: '15rem'
   }
 }
 

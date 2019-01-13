@@ -1102,7 +1102,7 @@
       "resolve": "/Users/aofolts/GitHub/medved-demo",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "087c8a9f2ae8b337d4b8e0a30b30c51f",
+      "version": "82b276790be2e8798bf0c5dab093f24f",
       "pluginOptions": {
         "plugins": []
       },
@@ -1243,7 +1243,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5419987700666e13aaf6e3cf66782c29",
+        "contentDigest": "60f2231a9f835311afcff3d3b755b04d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1360,12 +1360,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-10T15:56:07.191Z",
+      "buildTime": "2019-01-12T15:18:59.457Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "45e7b06445c7f1fc5fa64ddd1ed582c1",
+        "contentDigest": "2e9f19010d5d41fc61c75914cbf05b60",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1434,6 +1434,41 @@
       },
       "node_locale": "en-US"
     },
+    "f945ccc1-0932-5e00-ae06-8e3166812645": {
+      "id": "f945ccc1-0932-5e00-ae06-8e3166812645",
+      "parent": null,
+      "children": [],
+      "name": "Slide",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "912157a342d247044b342259b648e579",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "7f17e54d-da8b-5131-b1a9-092fe34fff46": {
+      "contentful_id": "zvUFo7gUZEYW4oK6GC8cG",
+      "id": "7f17e54d-da8b-5131-b1a9-092fe34fff46",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//downloads.ctfassets.net/sq1cttd4dffu/zvUFo7gUZEYW4oK6GC8cG/61419a2a03a50b3df37d1d812cce860c/image-reference.psd",
+        "details": {
+          "size": 11982976
+        },
+        "fileName": "image-reference.psd",
+        "contentType": "image/vnd.adobe.photoshop"
+      },
+      "title": "Women running race",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "a1a72978e594222e401e8527e6eddf20",
+        "owner": "gatsby-source-contentful"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -1460,10 +1495,10 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "sq1cttd4dffu-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYoSHzDi10_KcKkw642F8OzQsKbwqZrQA48wo4oPRHDsSfClMOUwrrDlMKRZcKmesKfw5LCm0k2csOvwq9dKHk3CgfDn8KBwrnCsTDDocOjb8KhwpVKR2ZRQcKiw6w"
+        "sq1cttd4dffu-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCqy_CgcKRwoBwTsOkw4FsY21sw5YNQFjCksKOfk4vw4fCoMOPKsOkw5nDn1x5wpHDpsKbTMKjLwzDhi1KwprDi2oUakAQw4jDqlVAw5PCgiUoJBQ7wonCkQXCjMOO"
       }
     },
-    "PLUGINS_HASH": "a6fac0bb1439aa50fb63a270987976bf"
+    "PLUGINS_HASH": "f1543e2c697c46bd5d311f9ab530c45a"
   },
   "componentDataDependencies": {
     "nodes": {},
