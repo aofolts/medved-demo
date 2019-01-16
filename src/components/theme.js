@@ -1,18 +1,4 @@
 const theme = {
-  color: {
-    primary: {
-      lighten: '#E37D71',
-      default: '#E35040'
-    },
-    grey: {
-      lightest: '#FAF5F5',
-      lighter: '#F5F0F0',
-      lighten: '#BFBBBB',
-      medium: '#807473',
-      darker: '#3F1512',
-      darkest: '#33110F'
-    }
-  },
   container: {
     height: {
       tall: 650
@@ -58,6 +44,30 @@ const theme = {
   }
 }
 
+theme.color = {
+  red: {
+    lightest: '#FAF5F5',
+    lighter: '#F5F0F0',
+    light: '#F5E6E6',
+    lighten: '#F0AFA8',
+    default: '#E35040'
+  },
+  blue: {
+    lightest: '#F5F7FA',
+    lighter: '#EBEFF5'
+  },
+  grey: {
+    lightest: '#FAF5F5',
+    lighter: '#F5F0F0',
+    lighten: '#BFBBBB',
+    medium: '#807473',
+    darker: '#3F1512',
+    darkest: '#33110F'
+  }
+}
+
+theme.color.primary = theme.color.red
+
 theme.columns = num => (theme.container.width.main / 120) * num + 'rem'
 
 theme.heading = {
@@ -76,5 +86,18 @@ theme.icon = {
 theme.padding.default = `
   ${theme.padding.large} ${theme.padding.small}
 `
+
+theme.zIndex = {
+  navigation: 1000
+}
+
+theme.text = {
+  small: '1.6rem',
+  mediumSmall: '1.8rem',
+  medium: '2rem',
+  mediumLarge: '2.4rem',
+  large: '3.6rem',
+  extraLarge: '6.5rem'
+}
 
 export default theme

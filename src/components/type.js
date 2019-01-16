@@ -49,7 +49,9 @@ export const paragraphStyles = {
 }
 
 export const Paragraph = styled.p`
-  color: ${props => props.theme.color.grey.darker};
+  color: ${props => props.scheme === 'reverse' 
+    ? 'white' 
+    : props.theme.color.grey.darker};
   font-size: ${props => paragraphStyles.fontSize[props.level]};
   font-family: ${props => props.theme.font.family.primary};
   font-weight: 400;

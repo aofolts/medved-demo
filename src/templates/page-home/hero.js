@@ -6,7 +6,7 @@ import imgSrc from './women-racing.jpeg'
 
 const Container = styled.div`
   background: ${props => props.theme.color.grey.lightest};
-  padding: ${props => props.theme.padding.default};
+  padding: ${props => props.theme.padding.medium};
 `
 
 const Content = styled.div`

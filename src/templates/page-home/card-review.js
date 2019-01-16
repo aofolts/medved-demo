@@ -1,19 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Heading,Paragraph} from 'components/type'
 
 const UnstyledTestimonial = ({
-  className
+  className,
+  entry
 }) => {
   return (
     <article className={className}>
-      <h3>Hey there, I'm a little pony!</h3>
+      <Heading scheme='reverse'>{entry.headline}</Heading>
+      <Paragraph scheme='reverse'>{entry.quote}</Paragraph>
     </article>
   )
 }
 
 const Testimonial = styled(UnstyledTestimonial)`
-  background: white;
-  padding: ${props => props.theme.padding.small};
+  display: block;
 `
 
 export default Testimonial
